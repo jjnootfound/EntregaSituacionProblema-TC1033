@@ -1,9 +1,10 @@
 #ifndef SISTEMA_H
 #define SISTEMA_H
 
-#include "Vuelo.h"
-#include "Usuario.h"
-#include "Reservacion.h"
+#include "../Vuelo/Vuelo.h"
+#include "../Usuario/Usuario.h"
+#include "../Reservacion/Reservacion.h"
+
 
 class Sistema {
 private: 
