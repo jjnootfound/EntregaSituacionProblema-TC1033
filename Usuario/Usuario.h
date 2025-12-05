@@ -12,7 +12,7 @@ private:
 
 public:
     Usuario ();
-    Usuario (int id, string nombre, int kmAcumulados);
+    Usuario (int id, string nombre);
     ~Usuario ();
 
     int getId();
