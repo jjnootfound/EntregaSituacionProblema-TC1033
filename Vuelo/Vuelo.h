@@ -15,7 +15,7 @@ private:
 public:
     Vuelo();
     Vuelo(int id, string nombre, double precio, int kilometros);
-    ~Vuelo();
+
 
     int getId();
     string getNombre();

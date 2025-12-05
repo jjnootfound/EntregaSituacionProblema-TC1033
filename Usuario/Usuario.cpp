@@ -6,11 +6,12 @@ Usuario::Usuario() {
     kmAcumulados = 0;
 }
 
-Usuario::Usuario(int id, string nombre, int kmAcumulados) {
+Usuario::Usuario(int id, string nombre) {
     this->id = id;
     this->nombre = nombre;
-    this->kmAcumulados = kmAcumulados;
 }
+
+
 
 int Usuario::getId() {
     return id;

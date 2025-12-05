@@ -14,6 +14,7 @@ Vuelo::Vuelo(int id, string nombre, double precio, int kilometros) {
     this->kilometros = kilometros;
 }
 
+
 //métodos: getters y setters
 int Vuelo::getId() { 
     return id; 

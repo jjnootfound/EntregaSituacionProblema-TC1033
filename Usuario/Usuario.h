@@ -13,7 +13,7 @@ private:
 public:
     Usuario ();
     Usuario (int id, string nombre);
-    ~Usuario ();
+    
 
     int getId();
     string getNombre();
